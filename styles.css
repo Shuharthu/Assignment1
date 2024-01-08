@@ -263,23 +263,44 @@ text-align: right;
 
     text-align: center;
 }
-
-.holidayredimg{
-    position: absolute;
-    top: 600%;
-    left: 100px;
-    height: 30%;
-    
-
-}
-.image2{
-
-    background-image: url(..C:\projects\Assignment\resources\Rectangle 2.png);
+.holidayp1{
+    background-image: url('Rectangle 1.png');
+    height: 400px;
+    width: 250px;
+    background-size:contain;
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-attachment: fixed;
-    background-position: center;
+    margin-top: 30px;
+    float: right;
+    position:relative;
+    right: 9%;
 }
+.holidayp2{
+    height: 180px;
+    width: 180px;
+    margin-top: 38px;
+    margin-left: -39%;
+}
+.holidayp3{
+    background-image: url('Rectangle 2.png');
+    height: 140px;
+    width: 100%;
+    margin-top:295px ;
+    background-repeat: no-repeat;
+    align-items: center;
+    position: relative;
+    left: 3%;
+}
+.holidayp4{
+    position: relative;
+    height: 350px;
+    width: 400px;
+    margin-top: 50px;
+    margin-right: -47%;
+    left: 10%;
+    top: -185%;
+}
+
+
 
 .container{
     padding-left: 05%;
@@ -408,7 +429,7 @@ footer{
     background:black;
     padding: 130px 200px;
     margin-top: 800px;
-    text:white;
+    text :white;
 }
 
 
@@ -473,4 +494,9 @@ left: 450px;
 .website{
     color:white;
     font-size: 15px;
+}
+.unsub{
+    position: relative;
+    right: -400px;
+    top: 350px;
 }
