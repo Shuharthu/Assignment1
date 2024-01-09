@@ -5,7 +5,7 @@ body{
 /* first pic css */
 .first{
     border-radius: 12px;
-    width: 1320px;
+    width: 100%;
     height: 600px;
     flex-shrink: 10;
     align-items: center;
@@ -14,7 +14,7 @@ body{
 .firstpic{
     filter: brightness(70%);
     border-radius: 12px;
-width: 1450px;
+width: 1400px;
 height: 600px;
 flex-shrink: 10;
 align-items: center;
@@ -23,12 +23,12 @@ padding: 15px 15px 15px 15px;
 
 .newyear1{
     position:absolute;
-    top:35%;
-    left:45%;
+    top:34%;
+    left:46%;
     color: white;
     text-align: center;
 
-font-size: 32px;
+font-size: 45px;
 font-style: normal;
 font-weight: 600;
 line-height: normal
@@ -41,7 +41,7 @@ line-height: normal
     color: whitesmoke;
     text-align: center;
 
-font-size: 50px;
+font-size: 70px;
 font-style: normal;
 font-weight: 800;
 line-height: normal
@@ -49,11 +49,11 @@ line-height: normal
 .newyear3{
     position:absolute;
     top:52%;
-    left:44%;
+    left:45%;
     color: whitesmoke;
     text-align: center;
 
-font-size: 50px;
+font-size: 70px;
 font-style: normal;
 font-weight: 800;
 line-height: normal
@@ -97,7 +97,8 @@ line-height: normal;
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 45%;
+  padding: 10px;
 }
 
 .thirdpic{
@@ -141,7 +142,7 @@ flex-shrink: 0;
   .thirdpic2{
     display: flex;
     position: absolute;
-  top: 235%; 
+  top: 225%; 
   right: 10%;
 width: 329.83px;
 height: 464.662px;
@@ -157,7 +158,9 @@ flex-shrink: 0;
     border-radius: 5px;
     width: 1220px;
 height: 282px;
-background: hsl(24, 82%, 94%);
+background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+
 margin: 50px;
 text-align: center;
 font-size: 35px;
@@ -208,7 +211,7 @@ font-weight: 600;
 
 .offer{
     color: rgba(7, 2, 17, 0.60);
-    font-size: 20px;
+    font-size:18px;
     font-weight: 400;
 }
 
@@ -222,14 +225,14 @@ text-align: right;
 
 .offer2{
     color: rgba(7, 2, 17, 0.60);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
 
 .fourthpic{
     position: absolute;
     top: 500;
-    right: 25%;
+    right: 22%;
     height: auto;
     max-width: 100%
 }
@@ -243,24 +246,34 @@ text-align: right;
 }
 .circle { 
     color:red;
-    height: 403px;   
-    width: 403px;
-    padding: 10px; 
+    height: 418px;   
+    width: 418px;
+    padding: 15px; 
     border: solid 12px;  
     border-radius: 50%;  
     position: relative; 
     transform: translate(-50%, -50%);
-    top: 100%; 
-    left: 49%; 
+    top: 98%; 
+    left: 50.5%; 
+}
+
+ellipse{
+    position: relative;
+    left: 53%;
+    align-items: center;
 }
 
 
+
+.percent{
+color:red;
+}
 .sale{
     color:black;
 }
 .holidaysale{
     color: rgba(7, 2, 17, 0.60);
-
+padding: 10px;
     text-align: center;
 }
 .holidayp1{
@@ -328,14 +341,17 @@ text-align: right;
     left: 5%;
     width: 424px;
     height: 450px;
-    flex-shrink: 0;
+  
+  
 
 }
 
 .subscribe{
         padding: 40px;
         border-radius: 15px;
-    background: #FFF8F3;
+    background:  rgba(255, 0, 0, 0.05);
+
+
     margin: 140px;
     position: relative;
     top: 750px;
@@ -427,7 +443,7 @@ footer{
     display: flex;
     gap:100px;
     background:black;
-    padding: 130px 200px;
+    padding: 130px 120px;
     margin-top: 800px;
     text :white;
 }
@@ -435,7 +451,7 @@ footer{
 
 
 .footer-column{
-    width:50%;
+    width:45%;
 }
 .address{
     color: #FFF;
@@ -473,7 +489,10 @@ left: 450px;
   font-weight: 300;
   line-height: 40px;
   float: right;
-  right:65px
+  right:65px;
+  height:69px;
+  width:15%;
+  clear:right;
 }
 .number{
     color:white;
@@ -487,16 +506,26 @@ left: 450px;
   font-style: normal;
   font-weight: 300;
   line-height: 40px;
-  top: 15px;
-  left:695px;
+  top: -40px;
+  right: -690px;
+  height:200px;
+  margin-top:10px;
+  float:right;
+  width:1%;
+  clear:right;
  
 }
+.webnum{
+    display: flex;
+}
 .website{
+    position: relative;
     color:white;
     font-size: 15px;
 }
 .unsub{
     position: relative;
-    right: -400px;
+    right: -440px;
     top: 350px;
+    color:#FFF;
 }
