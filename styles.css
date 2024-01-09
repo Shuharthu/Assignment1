@@ -12,7 +12,7 @@ body{
     padding: 15px 15px 15px 15px;  
 }
 .firstpic{
-    filter: brightness(70%);
+    filter: brightness(45%);
     border-radius: 12px;
 width: 1400px;
 height: 600px;
@@ -24,7 +24,7 @@ padding: 15px 15px 15px 15px;
 .newyear1{
     position:absolute;
     top:34%;
-    left:46%;
+    left:42%;
     color: white;
     text-align: center;
 
@@ -37,11 +37,11 @@ line-height: normal
 .newyear2{
     position:absolute;
     top:42%;
-    left:41%;
+    left:33%;
     color: whitesmoke;
     text-align: center;
 
-font-size: 70px;
+font-size: 80px;
 font-style: normal;
 font-weight: 800;
 line-height: normal
@@ -49,11 +49,11 @@ line-height: normal
 .newyear3{
     position:absolute;
     top:52%;
-    left:45%;
+    left:39%;
     color: whitesmoke;
     text-align: center;
 
-font-size: 70px;
+font-size: 80px;
 font-style: normal;
 font-weight: 800;
 line-height: normal
